@@ -8,5 +8,11 @@ The method **random_bytes** generates an arbitrary length string of cryptographi
 An example:
 
 
+```php
+<?php
+$hashedClass = new Hashedkey(8);
+echo $hashedClass->get_hashed_key();
+```
+
 Will output:
 6F70-4DFB-9B1C-D24D
